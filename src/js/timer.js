@@ -44,7 +44,6 @@ class CountdownTimer {
     secsValue.textContent = `${secs} Секунд`;
   }
 }
-
 const timer = new CountdownTimer({
-  targetDate: new Date(2023, 0, 1),
+  targetDate: new Date(2022, 5, 7),
 });
